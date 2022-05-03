@@ -16,6 +16,9 @@
   flex-wrap: wrap;
 }
 
+.ms-auto {
+  margin-left: auto;
+}
 /* #region Col */
 
 [class*="col"] {
@@ -30,62 +33,50 @@
 
 .col_1 {
   flex-basis: calc((100% / 12) * 1);
-  max-width: calc((100% / 12) * 1);
 }
 
 .col_2 {
   flex-basis: calc((100% / 12) * 2);
-  max-width: calc((100% / 12) * 2);
 }
 
 .col_3 {
   flex-basis: calc((100% / 12) * 3);
-  max-width: calc((100% / 12) * 3);
 }
 
 .col_4 {
   flex-basis: calc((100% / 12) * 4);
-  max-width: calc((100% / 12) * 4);
 }
 
 .col_5 {
   flex-basis: calc((100% / 12) * 5);
-  max-width: calc((100% / 12) * 5);
 }
 
 .col_6 {
   flex-basis: 50%;
-  max-width: 50%;
 }
 
 .col_7 {
   flex-basis: calc((100% / 12) * 7);
-  max-width: calc((100% / 12) * 7);
 }
 
 .col_8 {
   flex-basis: calc((100% / 12) * 8);
-  max-width: calc((100% / 12) * 8);
 }
 
 .col_9 {
   flex-basis: calc((100% / 12) * 9);
-  max-width: calc((100% / 12) * 9);
 }
 
 .col_10 {
   flex-basis: calc((100% / 12) * 10);
-  max-width: calc((100% / 12) * 10);
 }
 
 .col_11 {
   flex-basis: calc((100% / 12) * 11);
-  max-width: calc((100% / 12) * 11);
 }
 
 .col_12 {
   flex-basis: 100%;
-  max-width: 100%;
 }
 
 /* #endregion Col */
