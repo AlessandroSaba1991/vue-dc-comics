@@ -6,14 +6,15 @@
 </template>
 
 <script>
-import SectionContent from './MainSectionContentComponent.vue'
-import SectionMerchandise from './MainSectionMerchandiseComponent.vue'
+import SectionContent from "./MainSectionContentComponent.vue";
+import SectionMerchandise from "./MainSectionMerchandiseComponent.vue";
+
 export default {
   name: "MainComponent",
-  components:{
-      SectionContent,
-      SectionMerchandise
-  }
+  components: {
+    SectionContent,
+    SectionMerchandise,
+  },
 };
 </script>
 

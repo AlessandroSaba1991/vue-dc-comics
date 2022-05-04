@@ -23,8 +23,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   padding: 1rem;
-  .img {
-    
+  .img {    
     img {
       aspect-ratio: 1 / 1;
       object-fit: cover;

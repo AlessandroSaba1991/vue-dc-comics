@@ -91,8 +91,4 @@ export default {
   margin-left: auto;
   height: 100%;
 }
-
-.py-3 {
-  padding: 2.5rem 0;
-}
 </style>

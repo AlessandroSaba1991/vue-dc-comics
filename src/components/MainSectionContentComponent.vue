@@ -3,10 +3,11 @@
     <div class="hero_image"></div>
     <section class="fumetti">
       <div class="container py-3">
-        <div class="title"><h2>current series</h2></div>
+        <div class="title">
+          <h2>current series</h2>
+        </div>
         <div class="row">
-          <FumettoList :fumetto="fumetto" v-for="(fumetto,index) in fumetti" :key="index"/>
-          
+          <FumettoItem :fumetto="fumetto" v-for="(fumetto, index) in fumetti" :key="index"/>
           <div class="col_12">
             <div class="load_more">
               <a href="#" class="btn-primary">load more</a>
@@ -19,11 +20,12 @@
 </template>
 
 <script>
-import FumettoList from './FumettoComponent'
+import FumettoItem from "./FumettoComponent";
+
 export default {
   name: "MainSectionContentComponent",
-  components:{
-    FumettoList
+  components: {
+    FumettoItem,
   },
   data() {
     return {
@@ -139,7 +141,7 @@ export default {
       color: $white;
       padding: 0.5rem 1.5rem;
     }
-    .load_more{
+    .load_more {
       text-align: center;
       margin-top: 3rem;
     }
