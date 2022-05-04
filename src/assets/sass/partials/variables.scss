@@ -2,3 +2,11 @@ $primaryColor: rgba(2, 130, 249, 1);
 $bgMain: rgba(28, 28, 28, 1);
 $bgFooter: rgba(48, 48, 48, 1);
 $textFooter: rgba(121, 121, 121, 1);
+$white:white;
+
+@mixin button {
+    padding: 0.75rem 5rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+}

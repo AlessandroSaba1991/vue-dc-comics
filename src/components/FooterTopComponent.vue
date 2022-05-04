@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col_4 py-3">
           <div class="row">
-            <div class="col">
+            <div class="col_4">
               <h3>DC COMICS</h3>
               <ul>
                 <li><small>Characters</small></li>
@@ -21,7 +21,7 @@
                 <li><small>Shop DC Collectibles</small></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col_4">
               <h3>DC</h3>
               <ul>
                 <li><small>Terms of Use</small></li>
@@ -37,7 +37,7 @@
                 <li><small>Contact Us</small></li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col_4">
               <h3>SITES</h3>
               <ul>
                 <li><small>DC</small></li>
@@ -49,7 +49,11 @@
             </div>
           </div>
         </div>
-        <div class="col_5 bg"></div>
+        <div class="col_6 ms-auto">
+          <div class="row h_100">
+            <div class="col_11 bg"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -62,14 +66,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/partials/variables";
 .top {
   background-image: url("@/assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   h3 {
     margin-bottom: 1rem;
-    color: white;
+    color: $white;
   }
   ul {
     list-style: none;
@@ -80,15 +83,16 @@ export default {
     }
   }
 }
-.bg{
-    background-image: url('@/assets/img/dc-logo-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: auto;
+.bg {
+  background-image: url("@/assets/img/dc-logo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  height: 100%;
 }
 
-.py-3{
-    padding: 2.5rem 0;
+.py-3 {
+  padding: 2.5rem 0;
 }
 </style>

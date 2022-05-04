@@ -2,8 +2,8 @@
   <header>
     <div class="container">
       <div class="row align_center">
-        <div class="col_1">
-          <img src="@/assets/img/dc-logo.png" alt="" />
+        <div class="col_1 flex align-center">
+          <img width="80" src="@/assets/img/dc-logo.png" alt="" />
         </div>
         <div class="col_7 ms-auto">
          <NavMenu />

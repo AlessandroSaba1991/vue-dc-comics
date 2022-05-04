@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/partials/variables";
+
 .bottom{
     background-color: $bgFooter;
     padding: 1.5rem 0;
@@ -42,7 +42,7 @@ export default {
             border: 1px solid $primaryColor;
             padding: 1rem;
             text-transform: uppercase;
-            color: white;
+            color: $white;
             font-weight: 700;
         }
     }
